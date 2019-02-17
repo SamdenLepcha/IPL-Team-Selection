@@ -27,21 +27,21 @@ However we also added some extra features which helped our dimensionality reduct
 For<b> All-Rounder</b> all the above features were added and for Wicket Keepers just the batting attribute were added.<br><br>
 
 <h3>Ranking Players using PCA</h3>
-Principal Component Analysis is widely used in applied multivariate data analysis for dimensionality reduction. Here, we use principal component analysis rank the cricket batsmen and bowlers who played in the Indian Premier League (IPL) competition. In particular, in our work, the first principal component is seen to explain a substantial portion of the variation in a linear combination of some commonly used measures of cricket prowess. The PCA was fit on the data after standardization. Below are examples of the 2018 dataset:<br>
+Principal Component Analysis is widely used in applied multivariate data analysis for dimensionality reduction. Here, we use principal component analysis rank the cricket batsmen and bowlers who played in the Indian Premier League (IPL) competition. In particular, in our work, the first principal component is seen to explain a substantial portion of the variation in a linear combination of some commonly used measures of cricket prowess. The PCA was fit on the data after standardization. Below are examples of the 2018 dataset:<br><br>
 
-<b>Batsmen:</b><br>
-![image](https://user-images.githubusercontent.com/33536225/52917067-fab06880-330c-11e9-89e1-6a8cca6ba597.png)
-Snapshot of 2018 Batsmen with 2 PCA components
+<b>Batsmen:</b><br><br>
+![image](https://user-images.githubusercontent.com/33536225/52917067-fab06880-330c-11e9-89e1-6a8cca6ba597.png)<br>
+Snapshot of 2018 Batsmen with 2 PCA components<br>
 <br>
 <b>Variation in the data explained by the components:</b><br>
 Component 1 = 14.82703404<br>
 Component 2 = 7.38806297<br>
-Thus we can see that Component 1 explains a greater part of the variation. Thus we use that as a Ranking Index to rank all the players.<br>
+Thus we can see that Component 1 explains a greater part of the variation. Thus we use that as a Ranking Index to rank all the players.<br><br>
 <b>Below is an example of the coefficients assigned by PCA to our features: </b>
 
-  Component1/RankingIndex= 0.351Runs + 0.338Balls + 0.297StrikeRate + 0.338Fours + 0.324Sixes + 0.325HighestRunScored+ 0.200Ct_St+ 0.247RunOuts + 0.296MatchesPlayed + 0.265Hard Hitting + 0.297FastScoring + 0.02RunningBetweenWickets<br>
-<b>Bowlers:</b><br>
-![image](https://user-images.githubusercontent.com/33536225/52917089-46631200-330d-11e9-8363-174937693487.png)
+  Component1/RankingIndex= 0.351Runs + 0.338Balls + 0.297StrikeRate + 0.338Fours + 0.324Sixes + 0.325HighestRunScored+ 0.200Ct_St+ 0.247RunOuts + 0.296MatchesPlayed + 0.265Hard Hitting + 0.297FastScoring + 0.02RunningBetweenWickets<br><br>
+<b>Bowlers:</b><br><br>
+![image](https://user-images.githubusercontent.com/33536225/52917089-46631200-330d-11e9-8363-174937693487.png)<br>
 Snapshot of 2018 Bowlers with 2 PCA components<br>
 
 <b>Variation in the data explained by the components:</b><br>
@@ -58,9 +58,9 @@ Component1/RankingIndex= 0.45589429BallsBowled + 0.43463612Runs Conceded + -0.22
 
 <b>Note: All the weights in negative imply that the lesser the better. For eg.- Economy</b><br>
 
-<b>All-Rounders:</b><br>
-![image](https://user-images.githubusercontent.com/33536225/52917118-af4a8a00-330d-11e9-9a6b-221b27d674ed.png) 
-Snapshot of 2018 All-Rounders with 2 PCA components<br>
+<b>All-Rounders:</b><br><br>
+![image](https://user-images.githubusercontent.com/33536225/52917118-af4a8a00-330d-11e9-9a6b-221b27d674ed.png)<br>
+Snapshot of 2018 All-Rounders with 2 PCA components<br><br>
 
 <b>Variation in the data explained by the components:</b><br>
 
@@ -92,7 +92,7 @@ Data Wrangling:<br>
 
 Both these problems had to be fixed before any further work/analysis.<br><br>
 
-<h3>Resulting Team</h3><br>
+<h3>Resulting Team</h3>
 
 Our playing 11 which we deduced from our PCA analysis:<br>
 
