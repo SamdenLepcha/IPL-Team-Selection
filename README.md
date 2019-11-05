@@ -87,7 +87,8 @@ Similarly, in each year all the Batsmen, Wicket Keepers and Bowlers were ranked 
 
 Certain players did not play for a certain year, some players had one particular year where their performance dropped, some players stopped bowling/batting from particular years (though designated as All Rounders), and some players played in 2018 for the first time. However, our team was made taking into consideration the consistent performance of a player in all years between 2010-2018. Data previous to 2010 was not used because most players playing in 2019 never played in 2009 or earlier. We noticed that the data for 2010 and 2011 were actually the same and only considered one of them for our approach.
 <br>
-Data Wrangling:<br>
+
+<b>Data Wrangling:</b><br>
 
 ●	Same players across years have different formats of their names written. Some years have the First Name abbreviated while some do not.<br>
 ●	Player Type was not present in dataset before 2017.<br>
