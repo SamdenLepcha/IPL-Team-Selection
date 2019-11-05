@@ -1,4 +1,6 @@
-# IPL-Team-Selection
+<h1> IPL-Team-Selection</h1><img align="right" width="100" height="100" src="https://pbs.twimg.com/profile_images/976739713057828865/YDRDO_Sk_400x400.jpg">
+
+
 The objective was to pick the likely best-performing eleven players using the data from the past IPL seasons. This repository showcases Data Wrangling, Feature Engineering and Data Visualisation. PCA was used to create a "ranking" variable based on the player's stats.  
 
 <h2>These are the various methods used:</h2><br>
@@ -98,7 +100,7 @@ Our playing 11 which we deduced from our PCA analysis:<br>
 
 <b>1.	Batsmen:</b> Virat Kohli, Kane Williamson, Shikhar Dhawan, KL Rahul<br>
 <b>2.	All Rounders:</b> Hardik Pandya, Shane Watson<br>
-<b>3.	Bowlers:</b> Rashid Khan, Jasprit Bumrah, Bhuvneshwar Kumar, Sunil Narine,br>
+<b>3.	Bowlers:</b> Rashid Khan, Jasprit Bumrah, Bhuvneshwar Kumar, Sunil Narine<br>
 <b>4.	Wicket Keeper:</b> MS Dhoni<br>
 
 <b>Our choice of captain is MS Dhoni and Vice-Captain is Virat Kohli. </b><br>
